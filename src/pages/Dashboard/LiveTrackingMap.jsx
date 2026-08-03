@@ -73,7 +73,7 @@ const LiveTrackingMap = () => {
 
     // 2. Setup Socket.IO connection
     // Note: Assuming backend is running on 192.168.68.120:5000 based on vite.config.js, or localhost:5000
-    const socketUrl = "https://192.168.68.120:5000";
+    const socketUrl = import.meta.env.VITE_SOCKET_URL;
 
     const socket = io(socketUrl, {
       auth: { token },
