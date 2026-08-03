@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  button,
+  label,
+  p,
+  span,
+  a,
+  li {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer utilities {
+  .nav-logo-font {
+    font-family: 'Outfit', sans-serif !important;
+  }
+  .nav-link-font {
+    font-family: 'Inter', sans-serif !important;
+  }
+}
