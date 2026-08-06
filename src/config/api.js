@@ -1,7 +1,7 @@
 import axios from "axios";
 import { logoutUser } from "../utils/logoutUser";
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "/path",
   withCredentials: true,
 });
 const ACCESS_TOKEN_KEY = import.meta.env.VITE_ACCESS_TOKEN_KEY;

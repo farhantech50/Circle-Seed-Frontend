@@ -9,6 +9,7 @@ import {
   FaStore,
   FaChartLine,
   FaBullhorn,
+  FaListAlt,
 } from "react-icons/fa";
 
 const Setup = () => {
@@ -70,6 +71,13 @@ const Setup = () => {
         "Configure monthly lead, visit, and follow-up targets for marketing team.",
       icon: <FaBullhorn className="w-10 h-10" />,
       route: "/hr/setup/marketing-target",
+    },
+    {
+      title: "Lookup Management",
+      description:
+        "Create and manage system lookups such as leave statuses, tuition statuses, etc.",
+      icon: <FaListAlt className="w-10 h-10" />,
+      route: "/hr/setup/lookup-management",
     },
   ];
 

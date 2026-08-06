@@ -35,6 +35,7 @@ import {
   FaUserCog,
   FaClock,
   FaExclamationTriangle,
+  FaListAlt,
 } from "react-icons/fa";
 import { MdAdminPanelSettings, MdDashboard } from "react-icons/md";
 import { useAuthStore } from "../store/authStore";
@@ -72,7 +73,7 @@ const menuConfig = [
 
   {
     key: "hr_employee",
-    title: "HR & Employee Management",
+    title: "HR & Admin",
     path: "/hr/employees",
     icon: FaUsers,
     roles: [

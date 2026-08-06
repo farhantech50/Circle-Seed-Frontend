@@ -47,6 +47,7 @@ import InventoryOverall from "../pages/Inventory/InventoryOverall";
 import InventoryDetails from "../pages/Inventory/InventoryDetails/InventoryDetails";
 import DamageLoss from "../pages/Inventory/DamageLoss/DamageLoss";
 import QuotationCalculator from "../pages/Inventory/QuotationCalculator/QuotationCalculator";
+import LookupManagement from "../pages/HR/Setup/LookupManagement/LookupManagement";
 
 import POS from "../pages/Sales/POS/POS";
 import POSOrdersHistory from "../pages/Sales/POS/POSOrdersHistory";
@@ -133,6 +134,7 @@ export const protectedRoutes = [
   { path: "/hr/setup/pos-location", element: POSLocation },
   { path: "/hr/setup/sales-target", element: SalesTarget },
   { path: "/hr/setup/marketing-target", element: MarketingTarget },
+  { path: "/hr/setup/lookup-management", element: LookupManagement },
   { path: "/hr/employees", element: Employees },
   { path: "/hr/attendance", element: Attendance },
   { path: "/hr/attendance-summary", element: AttendanceSummary },
