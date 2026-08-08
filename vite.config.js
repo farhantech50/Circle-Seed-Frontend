@@ -13,7 +13,7 @@ export default defineConfig({
       cert: fs.readFileSync("./cert/server.crt"),
     },
     proxy: {
-      "/path": {
+      "/api": {
         target: "https://192.168.68.120:5000",
         changeOrigin: true,
         secure: false,
