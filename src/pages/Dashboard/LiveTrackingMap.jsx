@@ -72,7 +72,7 @@ const LiveTrackingMap = () => {
     fetchLocations();
 
     // 2. Setup Socket.IO connection
-    const socket = io(import.meta.env.VITE_BASE_URL, {
+    const socket = io(import.meta.env.VITE_API_URL || "", {
       auth: { token },
       secure: true,
       rejectUnauthorized: false, // since using self-signed certs locally
