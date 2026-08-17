@@ -6,7 +6,7 @@ const Footer = () => {
       <p className="mt-3 text-sm text-text-light dark:text-text ">
         Developed and maintained by:
       </p>
-      <img src="/logo.png" alt="Company Logo" className="h-8" />
+      <img src="/logo.png" alt="Company Logo" className="h-16" />
     </div>
   );
 };
